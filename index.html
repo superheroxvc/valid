@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+    
+<!-- Mirrored from appsvalidator.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Dec 2023 14:41:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="logo.html" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+        <meta name="description" content="Crypstarter utilizes Treasury Reserves to enable long-term price consistency and scarcity within an infinite supply system" />
+        <link rel="apple-touch-icon" href="favicon.html" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+        <!-- <link rel="manifest" href="/manifest.json" /> -->
+        <title>ValidatorNet Dashboard</title>
+        <link href="../cdn.jsdelivr.net/npm/bootstrap%405.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/bootstrap-icons%401.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="static/css/style.css">
+        <script src="../cdn.jsdelivr.net/npm/bootstrap%405.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </head>
+    <body><noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root">
+            
+        <hr>
+        
+        <section class="container">
+            <div class="row g-4" id="card-holder">
+                <div class="col-lg-12 py-3 nav-dark sticky-top">
+                    <div class="display-6 fw-bold">DASHBOARD <i class="bi bi-wallet2"></i></div>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section class="container mb-5">
+            <div class="row g-3">
+                <div class="col-lg-12">
+                    <div class="card card-gradient-1 p-0 rounded-3">
+                        <div class="card-body text-center py-5">
+                            
+                            <h1 class="display-6 mb-5" style="font-size: 2em">Ready to Get Started?</h1>
+
+                            <a href="index1.html" class="btn border btn-lg fw-bolder text-success btn-warning rounded-pill mb-3">Claim Rewards</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer class="container-fluid py-5" style="background-color: #000000;">
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+                <a href="#!" class="me-2 text-light">Terms and Conditions</a>
+                <a href="#!" class="text-light">Privacy Policy</a>
+            </div>
+            <div class="col-lg-6 mt-3 mt-lg-0 text-lg-end text-center">
+                <a href="#!" class="me-3 text-light lead"><i class="bi bi-facebook"></i></a>
+                <a href="#!" class="me-3 text-light lead"><i class="bi bi-twitter"></i></a>
+                <a href="#!" class="me-3 text-light lead"><i class="bi bi-youtube"></i></a>
+                <a href="#!" class="me-3 text-light lead"><i class="bi bi-linkedin"></i></a>
+                <a href="#!" class="me-3 text-light lead"><i class="bi bi-discord"></i></a>
+                <a href="#!" class="me-3 text-light lead"><i class="bi bi-reddit"></i></a>
+                <a href="#!" class="me-3 text-light lead"><i class="bi bi-telegram"></i></a>
+                <a href="#!" class="me-3 text-light lead"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+</footer>
+
+</div>
+
+<script>
+    var anchor = 'index1.html'; //use this to redirect the cards
+    var cardHolder = document.getElementById('card-holder');
+    var cardArr = [
+        {
+
+            title: 'Validate FTX withdrawal',
+            desc: 'FTX validation process.',
+            badge: 'Validate FTX withdrawal',
+        },
+        {
+            title: 'Validation',
+            desc: 'Validate your withdrawal.',
+            badge: 'Validation',
+        },
+		{
+
+            title: 'Resychronize',
+            desc: 'Resychronize process.',
+            badge: 'Resychronize',
+        },
+         {
+            title: 'Staking',
+            desc: 'Enable your wallet for staking.',
+            badge: 'Staking',
+        },
+        {
+            title: 'Bridge',
+            desc: 'Blockchain bridge connects two blockchain ecosystems.',
+            badge: 'Bridge',
+        },
+         {
+            title: 'Migration',
+            desc: 'Migrate your token.',
+            badge: 'Migration',
+        },
+        {
+            title: 'Verification',
+            desc: 'Digital identity verification',
+            badge: 'Verification',
+        },
+        {
+            title: 'Swap/Exchange',
+            desc: 'for any issues with swapping/exchange of coins',
+            badge: 'Fix Swap Issues',
+        },
+        {
+            title: 'Connect to Dapps',
+            desc: 'Connect decentralised web applications to mobile wallets or enable DApp on mobile wallets/extension.',
+            badge: 'Connect Dapps',
+        },
+        
+    ];
+
+    for (let i = 0; i < cardArr.length; i++) {
+        const card = cardArr[i];
+
+        if(i===0){
+            cardHolder.innerHTML += `<div class="col-lg-4">
+                <a href="${anchor}" class="text-light">
+                    <div class="card card-gradient-1 h-100 click-card">
+                        <div class="card-body">
+                            <h1 class="bi bi-grid-fill text-light display-4"></h1>
+                            <h4 class="">${card.title}</h4>
+                            <div class="mb-3 mt-1">${card.desc}</div>
+
+                            <button class="btn btn-sm btn-success rounded-pill">${card.badge}</button>
+                        </div>
+                    </div>
+                </a>
+            </div>`;
+        } else {
+            cardHolder.innerHTML += `<div class="col-lg-4">
+                <a href="${anchor}" class="text-light">
+                    <div class="card card-gradient-2 h-100 click-card">
+                        <div class="card-body">
+                            <h1 class="bi bi-grid-fill text-muted display-4"></h1>
+                            <h4 class="">${card.title}</h4>
+                            <div class="mb-3 mt-1">${card.desc}</div>
+
+                            <button class="btn btn-sm btn-success rounded-pill">${card.badge}</button>
+                        </div>
+                    </div>
+                </a>
+            </div>`;
+        }
+        
+    }
+</script>        </div>
+    </body>
+
+<!-- Mirrored from appsvalidator.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Dec 2023 14:41:37 GMT -->
+</html>

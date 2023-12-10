@@ -1,0 +1,110 @@
+* {
+    -ms-overflow-style: none !important;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Montserrat", sans-serif!important;
+}
+
+::-webkit-scrollbar {
+    /* display: none !important; */
+    height: 16px;
+    width: 16px
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: initial
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #2a4678;
+    height: 30px
+}
+
+.nav-dark {
+    background-color: rgba(24,36,59,0.8)!important;
+}
+
+#root, body, html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #01051e;
+    color: #fff;
+    font-family: "Montserrat", sans-serif!important;
+    min-height: 100vh
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0
+}
+a {
+    text-decoration: none!important;
+}
+
+.app {
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    font-family: Satoshi;
+    height: 100vh;
+    transition: all .33ms ease;
+    width: 100vw;
+    z-index: 1
+}
+
+.connect {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 1em;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;    
+    box-shadow: rgb(98 255 0 / 36%) 0px 0px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding: 20px 30px;
+}
+
+.connect:hover {
+    transform: scale(1.05);
+    box-shadow: rgb(98 255 0 / 66%) 0px 0px 15px;
+}
+
+.btn-gradient {
+    background: linear-gradient(129deg, rgb(62, 137, 64) 0%, rgb(128, 171, 70) 50%, rgb(228, 222, 79) 82%, rgb(255, 102, 0) 108%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.card-gradient-1 {
+    background: linear-gradient(129deg, rgb(62, 137, 64) 0%, rgb(128, 171, 70) 50%, rgb(228, 222, 79) 82%, rgb(255, 102, 0) 108%);
+    border: 2px solid rgb(50, 54, 83);
+    border-radius: 10px;
+    /* margin-bottom: 50px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 0px 0px 20px;
+}
+
+.card-gradient-2 {
+    background: linear-gradient(rgba(0, 255, 235, 0.2), rgba(0, 0, 0, 0));
+    border: 2px solid rgb(50, 54, 83);
+    border-radius: 10px;
+    /* margin-bottom: 50px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 0px 0px 20px;
+}
